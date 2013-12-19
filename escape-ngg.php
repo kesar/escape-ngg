@@ -32,7 +32,6 @@ add_action( 'admin_init', function() {
 	set_time_limit( 600 );
 
 	$uploads = wp_upload_dir();
-	$baseurl = $uploads['baseurl'];
 	$count = array(
 		'posts' => 0,
 		'images' => 0,
